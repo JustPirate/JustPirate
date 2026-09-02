@@ -1,6 +1,6 @@
 <div align="center">
 
-# Vijay Govind
+# Vijaygovind Biju
 
 ### Software Engineer • Linux & Systems • Flutter • AI
 
