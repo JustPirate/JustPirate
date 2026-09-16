@@ -6,6 +6,8 @@
 
 Building practical software across **systems, developer tools, cross-platform applications, and AI**.
 
+🌐 **[Portfolio](https://vijaygovindbiju.github.io/portfolio/)** &nbsp;|&nbsp; 💻 **[GitHub](https://github.com/vijaygovindBiju)**
+
 </div>
 
 ---
@@ -116,6 +118,6 @@ I'm particularly interested in the intersection of **systems software and intell
 
 ### Let's Build Something Interesting.
 
-[GitHub](https://github.com/vijaygovindBiju)
+[Portfolio](https://vijaygovindbiju.github.io/portfolio/) &nbsp;|&nbsp; [GitHub](https://github.com/vijaygovindBiju)
 
 </div>
