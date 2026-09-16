@@ -2,59 +2,83 @@
 
 # Vijaygovind Biju
 
-### Software Engineer • Linux & Systems • Flutter • AI
+**Software Engineer** — Systems Programming · Linux · Rust · Flutter · AI
 
-Building practical software across **systems, developer tools, cross-platform applications, and AI**.
+*Building practical software from the kernel up.*
 
-🌐 **[Portfolio](https://vijaygovindbiju.github.io/portfolio/)** &nbsp;|&nbsp; 💻 **[GitHub](https://github.com/vijaygovindBiju)**
+[![Portfolio](https://img.shields.io/badge/Portfolio-vijaygovindbiju.github.io-0B1120?style=flat&logo=githubpages&logoColor=white)](https://vijaygovindbiju.github.io/portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-vijaygovindBiju-181717?style=flat&logo=github&logoColor=white)](https://github.com/vijaygovindBiju)
 
 </div>
 
 ---
 
-## About Me
+## About
 
-I'm a software engineering student who enjoys understanding how software works beneath the surface and turning that knowledge into useful products.
+I'm a software engineering student with a focus on understanding how software works beneath the surface — operating system interfaces, runtime behaviour, system-level APIs — and applying that understanding to build useful products.
 
-My current focus is on:
-
-- **Software Engineering** — architecture, maintainability, APIs, databases, and problem solving
-- **Linux & Systems** — Linux internals, networking, audio, terminals, and system programming
-- **Rust** — safe, performant systems software and developer tools
-- **Flutter** — cross-platform applications with clean, feature-oriented architecture
-- **AI Engineering** — building practical AI systems and applying ML to real problems
+My work spans **systems programming**, **Linux internals**, **cross-platform application development**, and **AI engineering**. I'm particularly interested in the intersection of low-level infrastructure and the higher-level software that runs on top of it.
 
 ---
 
-## Featured Projects
+## Focus Areas
 
-### [Netra](https://github.com/vijaygovindBiju/Netra)
-**Linux Connectivity & Audio Control Center**
+| Domain | What I work on |
+|---|---|
+| **Software Engineering** | Architecture, APIs, databases, maintainability, problem solving |
+| **Linux & Systems** | Kernel interfaces, networking, audio, D-Bus, PTY, system programming |
+| **Rust** | Safe, performant systems software and developer tooling |
+| **Flutter** | Cross-platform applications with clean, feature-oriented architecture |
+| **AI Engineering** | Practical ML systems — from model to deployed product |
 
-A unified Linux desktop application for managing Wi-Fi, Bluetooth, hotspot/tethering, audio routing, devices, and network information without jumping between multiple tools and terminal commands.
+---
 
-**Focus:** Linux • Networking • D-Bus • NetworkManager • PipeWire • Rust
+## Projects
 
 ### [Hybrid](https://github.com/vijaygovindBiju/Hybrid)
-**Flutter Music Application**
+**Flutter Music Player**
 
-A music application focused on local playback, online music, offline access, search, playlists, and a recommendation system. Built with feature-based and layered architecture with clear separation between UI, state, repositories, data sources, and platform integrations.
+A music application that combines local media playback with a foundation for online streaming, search, playlists, and offline access. Built with a feature-based, layered architecture that keeps clear separation between UI, state, repositories, data sources, and platform integrations.
 
-**Focus:** Flutter • Dart • Riverpod • Clean Architecture • Audio
+**Current state:** Local music discovery and playback are complete. Queue management, background playback, lock-screen controls, and online features are actively being developed.
 
-### [Impostert](https://github.com/vijaygovindBiju/Impostert)
+**Stack:** Flutter · Dart · Riverpod · just\_audio · OnAudioQuery · go\_router
+
+---
+
+### Netra
+**Linux Connectivity & Audio Control Center**
+
+A unified Linux desktop application for managing Wi-Fi, Bluetooth, hotspot/tethering, audio routing, and network diagnostics — without jumping between multiple tools and terminal commands. Talks directly to Linux system services over D-Bus.
+
+**Stack:** Rust · Linux · D-Bus · NetworkManager · PipeWire
+
+---
+
+### Impostert
 **Rust Terminal Project**
 
-A systems-oriented terminal project built to explore terminal behavior, processes, PTYs, Linux system interfaces, and Rust.
+A systems-oriented terminal project built to explore terminal emulation, process management, PTYs, and Linux system interfaces in Rust.
 
-**Focus:** Rust • Linux • PTY • Processes • Systems Programming
+**Stack:** Rust · Linux · PTY · Processes · Systems Programming
+
+---
 
 ### LifeLine AI
 **AI Engineering Project**
 
-An AI-focused project exploring how machine learning can be turned into a practical software product rather than remaining purely experimental.
+An applied ML project exploring how to turn machine learning into a practical software product — with attention to data pipelines, model integration, and the engineering concerns that exist beyond the model itself.
 
-**Focus:** Python • Machine Learning • AI Engineering
+**Stack:** Python · scikit-learn · NumPy · Pandas
+
+---
+
+### [devforge](https://github.com/vijaygovindBiju/devforge)
+**Developer Environment**
+
+A customised Hyprland Linux environment with workflow automation and developer-focused tooling.
+
+**Stack:** Shell · Hyprland · Linux
 
 ---
 
@@ -62,26 +86,30 @@ An AI-focused project exploring how machine learning can be turned into a practi
 
 **Languages**
 
-`Rust` `Python` `Dart` `SQL` `Java`
+`Rust` `Dart` `Python` `SQL` `Java`
 
 **Frameworks & Libraries**
 
-`Flutter` `Riverpod` `REST APIs` `scikit-learn` `NumPy` `Pandas`
+`Flutter` `Riverpod` `just_audio` `go_router` `OnAudioQuery` `scikit-learn` `NumPy` `Pandas`
 
-**Systems & Tools**
+**Systems & Platform**
 
-`Linux` `Git` `GitHub` `NetworkManager` `PipeWire` `D-Bus`
+`Linux` `D-Bus` `NetworkManager` `PipeWire` `PTY`
 
-**Engineering**
+**Architecture**
 
 `Feature-based Architecture` `Layered Architecture` `Clean Architecture` `API Design` `Database Design`
 
+**Tooling**
+
+`Git` `GitHub` `Hyprland`
+
 ---
 
-## What I'm Learning
+## Engineering Direction
 
 ```text
-Software Engineering
+Software Engineering fundamentals
         ↓
 Linux & Systems Programming
         ↓
@@ -90,34 +118,34 @@ Rust + Distributed / Backend Systems
 AI Engineering
 ```
 
-I'm particularly interested in the intersection of **systems software and intelligent applications** — understanding the infrastructure underneath a product while also building the higher-level software users interact with.
+The goal is to understand the infrastructure beneath a product while also building the higher-level software users interact with.
 
 ---
 
-## Engineering Principles
+## Principles
 
-- **Understand before abstracting.**
-- **Keep responsibilities explicit.**
-- **Prefer simple architecture over unnecessary complexity.**
-- **Treat errors and edge cases as part of the design.**
-- **Build projects to learn how systems actually work.**
-- **Use documentation and source code as engineering tools.**
+- Understand before abstracting.
+- Keep responsibilities explicit.
+- Prefer simple architecture over unnecessary complexity.
+- Treat errors and edge cases as part of the design, not afterthoughts.
+- Build projects to learn how systems actually work.
+- Use documentation and source code as engineering tools.
 
 ---
 
 ## Currently Building
 
-- 🖥️ **Netra** — Linux connectivity and audio control
-- 🎵 **Hybrid** — cross-platform music application
-- 🦀 **Impostert** — Rust/Linux terminal project
-- 🤖 **LifeLine AI** — practical AI engineering
+| Project | Status |
+|---|---|
+| **Netra** — Linux connectivity and audio control | Active |
+| **Hybrid** — Cross-platform music application | Active |
+| **Impostert** — Rust/Linux terminal project | Active |
+| **LifeLine AI** — Applied AI engineering | Active |
 
 ---
 
 <div align="center">
 
-### Let's Build Something Interesting.
-
-[Portfolio](https://vijaygovindbiju.github.io/portfolio/) &nbsp;|&nbsp; [GitHub](https://github.com/vijaygovindBiju)
+[Portfolio](https://vijaygovindbiju.github.io/portfolio/) &nbsp;·&nbsp; [GitHub](https://github.com/vijaygovindBiju)
 
 </div>
