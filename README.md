@@ -15,9 +15,9 @@
 
 ## About
 
-I'm a software engineering student with a focus on understanding how software works beneath the surface — operating system interfaces, runtime behaviour, system-level APIs — and applying that understanding to build useful products.
+I'm a software engineer with a focus on understanding how software works beneath the surface — operating system interfaces, runtime behaviour, system-level APIs, and distributed systems — and applying that deep understanding to build reliable, high-performance products.
 
-My work spans **systems programming**, **Linux internals**, **cross-platform application development**, and **AI engineering**. I'm particularly interested in the intersection of low-level infrastructure and the higher-level software that runs on top of it.
+My work spans **systems programming**, **Linux internals & Wayland**, **cross-platform application development**, and **local-first AI engineering**.
 
 ---
 
@@ -25,122 +25,101 @@ My work spans **systems programming**, **Linux internals**, **cross-platform app
 
 | Domain | What I work on |
 |---|---|
-| **Software Engineering** | Architecture, APIs, databases, maintainability, problem solving |
-| **Linux & Systems** | Kernel interfaces, networking, audio, D-Bus, PTY, system programming |
-| **Rust** | Safe, performant systems software and developer tooling |
-| **Flutter** | Cross-platform applications with clean, feature-oriented architecture |
-| **AI Engineering** | Practical ML systems — from model to deployed product |
+| **Linux & Systems** | Wayland protocols, D-Bus, PTY emulation, kernel interfaces, memory safety, IPC |
+| **Rust** | Concurrent architectures, transaction engines, Write-Ahead Logging, CLI/TUI tools |
+| **Flutter & Mobile** | Reactive state architectures, offline-first sync, Bluetooth Low Energy (BLE), mesh networks |
+| **Local AI & Edge Compute** | Edge LLM inference offloading, USB coprocessor orchestration, GGUF/llama.cpp |
+| **Software Architecture** | Atomic swaps, LIFO rollback journals, traversal containment, clean APIs |
 
 ---
 
-## Projects
+## Featured Projects
 
-### [Hybrid](https://github.com/vijaygovindBiju/Hybrid)
-**Flutter Music Player**
+### [Woderrise](https://github.com/vijaygovindBiju/Woderrise)
+**GitHub-Powered Linux Desktop Configuration Store**
 
-A music application that combines local media playback with a foundation for online streaming, search, playlists, and offline access. Built with a feature-based, layered architecture that keeps clear separation between UI, state, repositories, data sources, and platform integrations.
+A declarative Wayland dotfile center and configuration store in Rust with a native Iced (v0.14+) GUI. Eliminates multi-gigabyte monolithic clones by querying the Git Trees API and streaming targeted assets via commit-pinned Fastly CDN endpoints (0 REST quota). Features a 4-phase atomic swap transaction engine, Write-Ahead Logging (WAL), automatic pre-flight backups, and 1-click reversible LIFO rollbacks.
 
-**Current state:** Local music discovery and playback are complete. Queue management, background playback, lock-screen controls, and online features are actively being developed.
-
-**Stack:** Flutter · Dart · Riverpod · just\_audio · OnAudioQuery · go\_router
+**Stack:** Rust · Iced v0.14+ · Tokio · Wayland · Fastly CDN · WAL
 
 ---
 
-### Netra
+### [Nexus Net](https://github.com/vijaygovindBiju/NEXUS)
+**Gaming Network Optimizer & Traffic Isolation Engine**
+
+Cross-platform desktop application designed to measure live network adapter telemetry (RTT, jitter, packet loss via async ICMP/UDP), dynamically prioritize optimal physical network interfaces, and enforce strict application traffic lockdown to eliminate latency spikes and bufferbloat during competitive play.
+
+**Stack:** Rust · Tauri · Tokio · Network HAL · Cross-Platform Sockets
+
+---
+
+### [PocketBridge](https://github.com/vijaygovindBiju/PocketBridge)
+**Android Edge AI Coprocessor Bridge**
+
+Turns idle Android phones into hardware-accelerated local coprocessors over high-speed USB (AOA / ADB). Streams GGUF quantized models to phone NPU/GPU backends, balancing LLM inference tasks between host desktops and mobile devices with zero cloud dependency.
+
+**Stack:** Rust · C++ · llama.cpp · Android NDK · USB AOA · RPC
+
+---
+
+### [AgentControll](https://github.com/vijaygovindBiju/AgentControll)
+**Local-First Control Plane for Coding Agents**
+
+Supervisor daemon and Ratatui terminal interface managing the lifecycle of coding agents (Google Antigravity, Claude Code, Codex). Handles PTY stream emulation, multi-account profile isolation, quota tracking, permission automation, and SQLite audit event streams.
+
+**Stack:** Rust · Ratatui · PTY · Tokio · SQLite · IPC
+
+---
+
+### [Safent (Travel SOS Mesh)](https://github.com/vijaygovindBiju/Safent)
+**Offline Emergency Mesh Network System**
+
+An offline-first emergency SOS mobile application designed for dead zones and natural disasters. Automatically switches from cellular/Wi-Fi to peer-to-peer Bluetooth Low Energy (BLE) mesh routing to propagate encrypted distress packets through nearby nodes until connectivity is restored.
+
+**Stack:** Flutter · Dart · BLE Mesh · SharedPreferences · Location Services
+
+---
+
+### [ForgeX](https://github.com/vijaygovindBiju/ForgeX)
+**Behavioral Accountability & Character Development System**
+
+An empirical character development platform connecting declared commitments, active window monitoring, consequences, and recovery into an adaptive feedback loop. Features a background Linux activity watcher, Ratatui TUI, and Flutter companion client.
+
+**Stack:** Rust · SQLite · Axum · Ratatui · Flutter · Dart FFI
+
+---
+
+### [Netra](https://github.com/vijaygovindBiju/Netra)
 **Linux Connectivity & Audio Control Center**
 
-A unified Linux desktop application for managing Wi-Fi, Bluetooth, hotspot/tethering, audio routing, and network diagnostics — without jumping between multiple tools and terminal commands. Talks directly to Linux system services over D-Bus.
+Unified Linux desktop control center for managing Wi-Fi, Bluetooth, hotspot tethering, audio routing, and network diagnostics over system D-Bus services.
 
 **Stack:** Rust · Linux · D-Bus · NetworkManager · PipeWire
 
 ---
 
-### Impostert
-**Rust Terminal Project**
-
-A systems-oriented terminal project built to explore terminal emulation, process management, PTYs, and Linux system interfaces in Rust.
-
-**Stack:** Rust · Linux · PTY · Processes · Systems Programming
-
----
-
-### LifeLine AI
-**AI Engineering Project**
-
-An applied ML project exploring how to turn machine learning into a practical software product — with attention to data pipelines, model integration, and the engineering concerns that exist beyond the model itself.
-
-**Stack:** Python · scikit-learn · NumPy · Pandas
-
----
-
-### [devforge](https://github.com/vijaygovindBiju/devforge)
-**Developer Environment**
-
-A customised Hyprland Linux environment with workflow automation and developer-focused tooling.
-
-**Stack:** Shell · Hyprland · Linux
-
----
-
 ## Technical Stack
 
-**Languages**
+**Languages**  
+`Rust` `Dart` `Python` `C/C++` `SQL` `TypeScript`
 
-`Rust` `Dart` `Python` `SQL` `Java`
+**Systems & Platforms**  
+`Linux (Arch/Debian)` `Wayland` `D-Bus` `PipeWire` `PTY` `BLE` `USB AOA`
 
-**Frameworks & Libraries**
+**Frameworks & UI**  
+`Iced (v0.14+)` `Ratatui` `Tauri` `Flutter` `React` `Tailwind CSS`
 
-`Flutter` `Riverpod` `just_audio` `go_router` `OnAudioQuery` `scikit-learn` `NumPy` `Pandas`
-
-**Systems & Platform**
-
-`Linux` `D-Bus` `NetworkManager` `PipeWire` `PTY`
-
-**Architecture**
-
-`Feature-based Architecture` `Layered Architecture` `Clean Architecture` `API Design` `Database Design`
-
-**Tooling**
-
-`Git` `GitHub` `Hyprland`
+**Databases & Storage**  
+`SQLite` `Hive` `Write-Ahead Logging (WAL)` `Local-First Storage`
 
 ---
 
-## Engineering Direction
+## Engineering Principles
 
-```text
-Software Engineering fundamentals
-        ↓
-Linux & Systems Programming
-        ↓
-Rust + Distributed / Backend Systems
-        ↓
-AI Engineering
-```
-
-The goal is to understand the infrastructure beneath a product while also building the higher-level software users interact with.
-
----
-
-## Principles
-
-- Understand before abstracting.
-- Keep responsibilities explicit.
-- Prefer simple architecture over unnecessary complexity.
-- Treat errors and edge cases as part of the design, not afterthoughts.
-- Build projects to learn how systems actually work.
-- Use documentation and source code as engineering tools.
-
----
-
-## Currently Building
-
-| Project | Status |
-|---|---|
-| **Netra** — Linux connectivity and audio control | Active |
-| **Hybrid** — Cross-platform music application | Active |
-| **Impostert** — Rust/Linux terminal project | Active |
-| **LifeLine AI** — Applied AI engineering | Active |
+- **Understand before abstracting:** Learn kernel and OS interfaces directly before layering frameworks.
+- **Fail-safe by default:** Use Write-Ahead Logs, automatic backups, and reversible transactions for state changes.
+- **Local-first & private:** Value edge compute, local storage, and user privacy over mandatory cloud dependencies.
+- **Zero warnings & high verification:** Clean compilation, strict linting, and thorough test coverage.
 
 ---
 
