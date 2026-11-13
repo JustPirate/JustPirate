@@ -60,13 +60,13 @@
 Click any empty square `[ ⚔️ ]` below to challenge the **Pirate Bot** directly on this profile!
 
 <!-- TTT_START -->
-<!-- TTT_STATE:_________ -->
-**Status:** Your turn! Click an empty square `[ ⚔️ ]` to make your move (❌).
+<!-- TTT_STATE:O___X____ -->
+**Status:** @JustPirate played (2, 2). Pirate bot responded! Your turn (❌):
 
 | Col 1 | Col 2 | Col 3 |
 | :---: | :---: | :---: |
-| [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C0%7C0&body=Click+%27Submit+new+issue%27+to+play+this+square!) | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C0%7C1&body=Click+%27Submit+new+issue%27+to+play+this+square!) | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C0%7C2&body=Click+%27Submit+new+issue%27+to+play+this+square!) |
-| [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C1%7C0&body=Click+%27Submit+new+issue%27+to+play+this+square!) | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C1%7C1&body=Click+%27Submit+new+issue%27+to+play+this+square!) | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C1%7C2&body=Click+%27Submit+new+issue%27+to+play+this+square!) |
+| ⭕ | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C0%7C1&body=Click+%27Submit+new+issue%27+to+play+this+square!) | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C0%7C2&body=Click+%27Submit+new+issue%27+to+play+this+square!) |
+| [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C1%7C0&body=Click+%27Submit+new+issue%27+to+play+this+square!) | ❌ | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C1%7C2&body=Click+%27Submit+new+issue%27+to+play+this+square!) |
 | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C2%7C0&body=Click+%27Submit+new+issue%27+to+play+this+square!) | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C2%7C1&body=Click+%27Submit+new+issue%27+to+play+this+square!) | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C2%7C2&body=Click+%27Submit+new+issue%27+to+play+this+square!) |
 
 [🔄 **Start New Game**](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Creset&body=Click+%27Submit+new+issue%27+to+start+a+new+game!)
