@@ -1,130 +1,128 @@
 <div align="center">
 
-# Vijaygovind Biju
+# ⚓ JustPirate
 
-**Software Engineer** — Systems Programming · Linux · Rust · Flutter · AI
+**Systems Engineer & Low-Level Toolmaker**  
+*Building high-performance software from the kernel up.*
 
-*Building practical software from the kernel up.*
+```rust
+fn profile() -> Developer {
+    Developer {
+        handle: "JustPirate",
+        focus: ["Systems Programming", "Linux Internals", "Rust Ecosystem", "Autonomous AI Agents", "Offline Mesh Networks"],
+        motto: "Understand the hardware and kernel before abstracting.",
+    }
+}
+```
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-vijaygovindbiju.github.io-0B1120?style=flat&logo=githubpages&logoColor=white)](https://vijaygovindbiju.github.io/portfolio/)
-[![GitHub](https://img.shields.io/badge/GitHub-JustPirate-181717?style=flat&logo=github&logoColor=white)](https://github.com/JustPirate)
+<p align="center">
+  <a href="https://github.com/JustPirate">
+    <img src="https://img.shields.io/badge/GitHub-JustPirate-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <img src="https://img.shields.io/badge/Language-Rust-CE412B?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/OS-Linux_Kernel-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Architecture-x86__64_/_ARM64-007ACC?style=for-the-badge" alt="Architecture" />
+</p>
 
 </div>
 
 ---
 
-## About
+### 🌊 About Me
 
-I'm a software engineer with a focus on understanding how software works beneath the surface — operating system interfaces, runtime behaviour, system-level APIs, and distributed systems — and applying that deep understanding to build reliable, high-performance products.
+I am a software engineer focused on what happens beneath the surface: operating system interfaces, network kernels, runtime scheduling, and distributed protocols. I build tools where latency, memory safety, and fail-safe recovery are paramount.
 
-My work spans **systems programming**, **Linux internals & Wayland**, **cross-platform application development**, and **local-first AI engineering**.
-
----
-
-## Focus Areas
-
-| Domain | What I work on |
-|---|---|
-| **Linux & Systems** | Wayland protocols, D-Bus, PTY emulation, kernel interfaces, memory safety, IPC |
-| **Rust** | Concurrent architectures, transaction engines, Write-Ahead Logging, CLI/TUI tools |
-| **Flutter & Mobile** | Reactive state architectures, offline-first sync, Bluetooth Low Energy (BLE), mesh networks |
-| **Local AI & Edge Compute** | Edge LLM inference offloading, USB coprocessor orchestration, GGUF/llama.cpp |
-| **Software Architecture** | Atomic swaps, LIFO rollback journals, traversal containment, clean APIs |
+- 🦀 **Rust & Systems:** Kernel policy routing (Netlink/WFP), raw socket telemetry, PTY emulation, and transactional journaling.
+- 🐧 **Linux Desktop & Wayland:** Hyprland tooling, D-Bus service orchestration, PipeWire, and atomic desktop management.
+- 🤖 **Agentic & AI Infrastructure:** Local-first terminal supervisors for autonomous coding agents, multi-account vaulting, and ADB compute offloading.
+- 📡 **Offline Networking:** Zero-cloud peer-to-peer BLE mesh routing and high-speed USB-C hardware IPC.
 
 ---
 
-## Featured Projects
+### 🚀 Flagship Projects
 
-### [Woderrise](https://github.com/JustPirate/Woderrise)
-**GitHub-Powered Linux Desktop Configuration Store**
-
-A declarative Wayland dotfile center and configuration store in Rust with a native Iced (v0.14+) GUI. Eliminates multi-gigabyte monolithic clones by querying the Git Trees API and streaming targeted assets via commit-pinned Fastly CDN endpoints (0 REST quota). Features a 4-phase atomic swap transaction engine, Write-Ahead Logging (WAL), automatic pre-flight backups, and 1-click reversible LIFO rollbacks.
-
-**Stack:** Rust · Iced v0.14+ · Tokio · Wayland · Fastly CDN · WAL
-
----
-
-### [Nexus Net](https://github.com/JustPirate/nexius)
-**Gaming Network Optimizer & Traffic Isolation Engine**
-
-Cross-platform desktop application designed to measure live network adapter telemetry (RTT, jitter, packet loss via async ICMP/UDP), dynamically prioritize optimal physical network interfaces, and enforce strict application traffic lockdown to eliminate latency spikes and bufferbloat during competitive play.
-
-**Stack:** Rust · Tauri · Tokio · Network HAL · Cross-Platform Sockets
-
----
-
-### [PocketBridge](https://github.com/JustPirate/PocketBridge)
-**Android Edge AI Coprocessor Bridge**
-
-Turns idle Android phones into hardware-accelerated local coprocessors over high-speed USB (AOA / ADB). Streams GGUF quantized models to phone NPU/GPU backends, balancing LLM inference tasks between host desktops and mobile devices with zero cloud dependency.
-
-**Stack:** Rust · C++ · llama.cpp · Android NDK · USB AOA · RPC
-
----
-
-### [AgentControll](https://github.com/JustPirate/AgentControll)
-**Local-First Control Plane for Coding Agents**
-
-Supervisor daemon and Ratatui terminal interface managing the lifecycle of coding agents (Google Antigravity, Claude Code, Codex). Handles PTY stream emulation, multi-account profile isolation, quota tracking, permission automation, and SQLite audit event streams.
-
-**Stack:** Rust · Ratatui · PTY · Tokio · SQLite · IPC
-
----
-
-### [Safent (Travel SOS Mesh)](https://github.com/JustPirate/Safent)
-**Offline Emergency Mesh Network System**
-
-An offline-first emergency SOS mobile application designed for dead zones and natural disasters. Automatically switches from cellular/Wi-Fi to peer-to-peer Bluetooth Low Energy (BLE) mesh routing to propagate encrypted distress packets through nearby nodes until connectivity is restored.
-
-**Stack:** Flutter · Dart · BLE Mesh · SharedPreferences · Location Services
-
----
-
-### [ForgeX](https://github.com/JustPirate/ForgeX)
-**Behavioral Accountability & Character Development System**
-
-An empirical character development platform connecting declared commitments, active window monitoring, consequences, and recovery into an adaptive feedback loop. Features a background Linux activity watcher, Ratatui TUI, and Flutter companion client.
-
-**Stack:** Rust · SQLite · Axum · Ratatui · Flutter · Dart FFI
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center"><a href="https://github.com/JustPirate/nexius">🎯 Nexus Net (nexius)</a></h3>
+      <p align="center"><b>Kernel Gaming Network Optimizer & Traffic Isolation</b></p>
+      <p>High-performance cross-platform network engine built with <b>Rust & Tauri v2</b>. Features live multi-adapter telemetry (sliding window math), dynamic policy routing via Linux Netlink Table 100 and Windows WFP app redirection without dropping live connections, process-level firewall lockdown (nftables), and a fail-safe dead-man watchdog.</p>
+      <p align="center">
+        <code>Rust</code> · <code>Tauri v2</code> · <code>Netlink</code> · <code>nftables</code> · <code>WFP</code>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center"><a href="https://github.com/JustPirate/AgentControll">🤖 AgentControll</a></h3>
+      <p align="center"><b>Local-First Supervisor for Coding Agents</b></p>
+      <p>Control plane and terminal supervisor for autonomous coding agents (Antigravity, Claude Code, Devin CLI). Manages multi-agent sessions, isolates credentials per profile, automates quota failover/handoff, and features a full ANSI PTY terminal with SQLite audit event streaming.</p>
+      <p align="center">
+        <code>Rust</code> · <code>PTY</code> · <code>Tokio</code> · <code>SQLite</code> · <code>Ratatui</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center"><a href="https://github.com/JustPirate/PocketBridge">⚡ PocketBridge</a></h3>
+      <p align="center"><b>Android Compute & Coprocessor Offloader</b></p>
+      <p>Enables compute and model offloading from a Linux host to an attached Android phone over a high-speed ADB link via USB-C on localhost. Rust host with a terminal UI paired with an Android worker, benchmarking real-world latency and throughput.</p>
+      <p align="center">
+        <code>Rust</code> · <code>Kotlin</code> · <code>ADB Protocol</code> · <code>USB-C IPC</code>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center"><a href="https://github.com/JustPirate/Woderrise">🐧 Woderrise</a></h3>
+      <p align="center"><b>Transactional Hyprland Desktop Store</b></p>
+      <p>A declarative Linux desktop customization store to discover, preview, and install Hyprland components with atomic transaction journaling, Write-Ahead Logging (WAL), pre-flight backups, and 1-click reversible LIFO rollbacks.</p>
+      <p align="center">
+        <code>Rust</code> · <code>Wayland</code> · <code>Hyprland</code> · <code>WAL Transactions</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <h3 align="center"><a href="https://github.com/JustPirate/Safent">🛡️ Safent (Offline Travel SOS Mesh)</a></h3>
+      <p align="center"><b>Zero-Internet Emergency Mesh Network</b></p>
+      <p>Offline-first safety companion that detects danger using phone sensors and risk fusion. Relays encrypted SOS distress packets through nearby peer devices over Bluetooth Low Energy (BLE) mesh until connectivity is restored, featuring a live responder dashboard.</p>
+      <p align="center">
+        <code>Dart</code> · <code>Flutter</code> · <code>BLE Mesh</code> · <code>Sensor Fusion</code> · <code>P2P Relays</code>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### [Netra](https://github.com/JustPirate/Netra)
-**Linux Connectivity & Audio Control Center**
-
-Unified Linux desktop control center for managing Wi-Fi, Bluetooth, hotspot tethering, audio routing, and network diagnostics over system D-Bus services.
-
-**Stack:** Rust · Linux · D-Bus · NetworkManager · PipeWire
-
----
-
-## Technical Stack
-
-**Languages**  
-`Rust` `Dart` `Python` `C/C++` `SQL` `TypeScript`
-
-**Systems & Platforms**  
-`Linux (Arch/Debian)` `Wayland` `D-Bus` `PipeWire` `PTY` `BLE` `USB AOA`
-
-**Frameworks & UI**  
-`Iced (v0.14+)` `Ratatui` `Tauri` `Flutter` `React` `Tailwind CSS`
-
-**Databases & Storage**  
-`SQLite` `Hive` `Write-Ahead Logging (WAL)` `Local-First Storage`
-
----
-
-## Engineering Principles
-
-- **Understand before abstracting:** Learn kernel and OS interfaces directly before layering frameworks.
-- **Fail-safe by default:** Use Write-Ahead Logs, automatic backups, and reversible transactions for state changes.
-- **Local-first & private:** Value edge compute, local storage, and user privacy over mandatory cloud dependencies.
-- **Zero warnings & high verification:** Clean compilation, strict linting, and thorough test coverage.
-
----
+### 🛠️ Tech Stack & Arsenal
 
 <div align="center">
 
-[Portfolio](https://vijaygovindbiju.github.io/portfolio/) &nbsp;·&nbsp; [GitHub](https://github.com/JustPirate)
+| Domain | Technologies & Tools |
+| :--- | :--- |
+| **Core Languages** | ![Rust](https://img.shields.io/badge/Rust-CE412B?style=flat-square&logo=rust&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Shell](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) |
+| **Systems & Linux** | `Netlink (rtnetlink)` • `nftables` • `Windows WFP` • `Wayland / Hyprland` • `D-Bus` • `PTY` • `PipeWire` • `ethtool / iw` |
+| **Frameworks & UI** | `Tauri v2` • `Ratatui` • `Tokio Async` • `Flutter` • `Iced` • `Axum` • `React` |
+| **Data & Storage** | `SQLite` • `Write-Ahead Logging (WAL)` • `Protocol Buffers` • `Local-First Storage Engines` |
 
+</div>
+
+---
+
+### 📊 GitHub Activity & Metrics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=JustPirate&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JustPirate&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+</div>
+
+---
+
+### ⚓ Engineering Invariants
+
+> **1. Understand Before Abstracting:** Always master the raw kernel, socket, and memory primitives before adopting libraries.  
+> **2. Fail-Safe by Default:** Every state modification must have transaction logs, rollback capability, and dead-man recovery hooks.  
+> **3. Local-First & Sovereign:** Prioritize edge compute, local device communication, and user privacy over cloud dependency.  
+> **4. Rigorous Empirical Verification:** Software is incomplete without stress tests, adversarial scenarios, and strict zero-warning compilation.
+
+<div align="center">
+  <sub>Crafted with precision by <b><a href="https://github.com/JustPirate">JustPirate</a></b></sub>
 </div>
