@@ -57,20 +57,51 @@
 
 ### ⚔️ Pirate Duel: Play Tic-Tac-Toe Against the Bot!
 
-Click any empty square `[ ⚔️ ]` below to challenge the **Pirate Bot** directly on this profile!
+> 💡 **How to play:** Click any `[ ⚔️ ]` square below ➔ Click the green **"Submit new issue"** button on GitHub ➔ The bot plays its move and the board updates automatically!
 
 <!-- TTT_START -->
-<!-- TTT_STATE:O___X____ -->
-**Status:** @JustPirate played (2, 2). Pirate bot responded! Your turn (❌):
+<!-- TTT_STATE:_________ -->
+**Status:** Your turn! Click an empty square `[ ⚔️ ]` to make your move (❌).
 
 | Col 1 | Col 2 | Col 3 |
 | :---: | :---: | :---: |
-| ⭕ | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C0%7C1&body=Click+%27Submit+new+issue%27+to+play+this+square!) | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C0%7C2&body=Click+%27Submit+new+issue%27+to+play+this+square!) |
-| [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C1%7C0&body=Click+%27Submit+new+issue%27+to+play+this+square!) | ❌ | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C1%7C2&body=Click+%27Submit+new+issue%27+to+play+this+square!) |
+| [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C0%7C0&body=Click+%27Submit+new+issue%27+to+play+this+square!) | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C0%7C1&body=Click+%27Submit+new+issue%27+to+play+this+square!) | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C0%7C2&body=Click+%27Submit+new+issue%27+to+play+this+square!) |
+| [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C1%7C0&body=Click+%27Submit+new+issue%27+to+play+this+square!) | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C1%7C1&body=Click+%27Submit+new+issue%27+to+play+this+square!) | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C1%7C2&body=Click+%27Submit+new+issue%27+to+play+this+square!) |
 | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C2%7C0&body=Click+%27Submit+new+issue%27+to+play+this+square!) | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C2%7C1&body=Click+%27Submit+new+issue%27+to+play+this+square!) | [ ⚔️ ](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Cplay%7C2%7C2&body=Click+%27Submit+new+issue%27+to+play+this+square!) |
 
 [🔄 **Start New Game**](https://github.com/JustPirate/JustPirate/issues/new?title=ttt%7Creset&body=Click+%27Submit+new+issue%27+to+start+a+new+game!)
 <!-- TTT_END -->
+
+---
+
+### 🏴‍☠️ Interactive Treasure Vault (Click to Loot!)
+
+*Open the cursed chests below to unlock secret systems knowledge and pirate loot:*
+
+<details>
+<summary>🎁 <b>Chest #1: The Cursed Binary Cipher</b> (Click to open)</summary>
+
+> **Binary Scroll:** `01010010 01110101 01110011 01110100`  
+> **Translation:** `Rust` — *"Memory safety without garbage collection is the true gold of the seven seas."*
+</details>
+
+<details>
+<summary>💎 <b>Chest #2: The Kernel Network Secret</b> (Click to open)</summary>
+
+> **Riddle:** *How do you steer a single competitive game across Wi-Fi while downloading at 1 Gbps on Ethernet without disconnecting the match?*  
+> **Solution:** **Linux Netlink Table 100** policy routing paired with Netfilter socket marks (`fwmark 0x1`) and **Windows WFP ALE App Redirection**, maintaining existing TCP socket states while steering gaming UDP flows.
+</details>
+
+<details>
+<summary>📜 <b>Chest #3: The Pirate's 4 Golden Invariants</b> (Click to open)</summary>
+
+```
+1. Write code with zero compiler warnings.
+2. Never leak file descriptors or sockets into the abyss.
+3. Every state mutation must have an atomic rollback journal.
+4. Test ruthlessly against adversarial dropouts before sailing to production.
+```
+</details>
 
 ---
 
@@ -94,17 +125,6 @@ Click any empty square `[ ⚔️ ]` below to challenge the **Pirate Bot** direct
 - **Kernels & Networking:** Netlink (`rtnetlink`) · `nftables` · Windows WFP · Wayland · Hyprland · D-Bus · PTY Emulation · PipeWire · `ethtool` / `iw`
 - **Frameworks & UI:** Tauri v2 · Ratatui (TUI) · Tokio Async · Flutter · Iced · Axum · React
 - **Data & Architecture:** SQLite · Write-Ahead Logging (WAL) · Protocol Buffers · Local-First IPC
-
-</details>
-
-<details>
-<summary><b>⚓ Click to Expand: Core Engineering Invariants</b></summary>
-<br>
-
-1. **Understand Before Abstracting:** Always master raw kernel, socket, and memory primitives before adopting libraries.
-2. **Fail-Safe by Default:** Every state modification must have transaction logs, rollback capability, and dead-man recovery hooks.
-3. **Local-First & Sovereign:** Prioritize edge compute, local device communication, and user privacy over cloud dependency.
-4. **Rigorous Empirical Verification:** Software is incomplete without stress tests, adversarial scenarios, and strict zero-warning compilation.
 
 </details>
 
