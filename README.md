@@ -7,7 +7,7 @@
 *Building practical software from the kernel up.*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-vijaygovindbiju.github.io-0B1120?style=flat&logo=githubpages&logoColor=white)](https://vijaygovindbiju.github.io/portfolio/)
-[![GitHub](https://img.shields.io/badge/GitHub-vijaygovindBiju-181717?style=flat&logo=github&logoColor=white)](https://github.com/vijaygovindBiju)
+[![GitHub](https://img.shields.io/badge/GitHub-JustPirate-181717?style=flat&logo=github&logoColor=white)](https://github.com/JustPirate)
 
 </div>
 
@@ -35,7 +35,7 @@ My work spans **systems programming**, **Linux internals & Wayland**, **cross-pl
 
 ## Featured Projects
 
-### [Woderrise](https://github.com/vijaygovindBiju/Woderrise)
+### [Woderrise](https://github.com/JustPirate/Woderrise)
 **GitHub-Powered Linux Desktop Configuration Store**
 
 A declarative Wayland dotfile center and configuration store in Rust with a native Iced (v0.14+) GUI. Eliminates multi-gigabyte monolithic clones by querying the Git Trees API and streaming targeted assets via commit-pinned Fastly CDN endpoints (0 REST quota). Features a 4-phase atomic swap transaction engine, Write-Ahead Logging (WAL), automatic pre-flight backups, and 1-click reversible LIFO rollbacks.
@@ -44,7 +44,7 @@ A declarative Wayland dotfile center and configuration store in Rust with a nati
 
 ---
 
-### [Nexus Net](https://github.com/vijaygovindBiju/NEXUS)
+### [Nexus Net](https://github.com/JustPirate/nexius)
 **Gaming Network Optimizer & Traffic Isolation Engine**
 
 Cross-platform desktop application designed to measure live network adapter telemetry (RTT, jitter, packet loss via async ICMP/UDP), dynamically prioritize optimal physical network interfaces, and enforce strict application traffic lockdown to eliminate latency spikes and bufferbloat during competitive play.
@@ -53,7 +53,7 @@ Cross-platform desktop application designed to measure live network adapter tele
 
 ---
 
-### [PocketBridge](https://github.com/vijaygovindBiju/PocketBridge)
+### [PocketBridge](https://github.com/JustPirate/PocketBridge)
 **Android Edge AI Coprocessor Bridge**
 
 Turns idle Android phones into hardware-accelerated local coprocessors over high-speed USB (AOA / ADB). Streams GGUF quantized models to phone NPU/GPU backends, balancing LLM inference tasks between host desktops and mobile devices with zero cloud dependency.
@@ -62,7 +62,7 @@ Turns idle Android phones into hardware-accelerated local coprocessors over high
 
 ---
 
-### [AgentControll](https://github.com/vijaygovindBiju/AgentControll)
+### [AgentControll](https://github.com/JustPirate/AgentControll)
 **Local-First Control Plane for Coding Agents**
 
 Supervisor daemon and Ratatui terminal interface managing the lifecycle of coding agents (Google Antigravity, Claude Code, Codex). Handles PTY stream emulation, multi-account profile isolation, quota tracking, permission automation, and SQLite audit event streams.
@@ -71,7 +71,7 @@ Supervisor daemon and Ratatui terminal interface managing the lifecycle of codin
 
 ---
 
-### [Safent (Travel SOS Mesh)](https://github.com/vijaygovindBiju/Safent)
+### [Safent (Travel SOS Mesh)](https://github.com/JustPirate/Safent)
 **Offline Emergency Mesh Network System**
 
 An offline-first emergency SOS mobile application designed for dead zones and natural disasters. Automatically switches from cellular/Wi-Fi to peer-to-peer Bluetooth Low Energy (BLE) mesh routing to propagate encrypted distress packets through nearby nodes until connectivity is restored.
@@ -80,7 +80,7 @@ An offline-first emergency SOS mobile application designed for dead zones and na
 
 ---
 
-### [ForgeX](https://github.com/vijaygovindBiju/ForgeX)
+### [ForgeX](https://github.com/JustPirate/ForgeX)
 **Behavioral Accountability & Character Development System**
 
 An empirical character development platform connecting declared commitments, active window monitoring, consequences, and recovery into an adaptive feedback loop. Features a background Linux activity watcher, Ratatui TUI, and Flutter companion client.
@@ -89,7 +89,7 @@ An empirical character development platform connecting declared commitments, act
 
 ---
 
-### [Netra](https://github.com/vijaygovindBiju/Netra)
+### [Netra](https://github.com/JustPirate/Netra)
 **Linux Connectivity & Audio Control Center**
 
 Unified Linux desktop control center for managing Wi-Fi, Bluetooth, hotspot tethering, audio routing, and network diagnostics over system D-Bus services.
@@ -125,6 +125,6 @@ Unified Linux desktop control center for managing Wi-Fi, Bluetooth, hotspot teth
 
 <div align="center">
 
-[Portfolio](https://vijaygovindbiju.github.io/portfolio/) &nbsp;·&nbsp; [GitHub](https://github.com/vijaygovindBiju)
+[Portfolio](https://vijaygovindbiju.github.io/portfolio/) &nbsp;·&nbsp; [GitHub](https://github.com/JustPirate)
 
 </div>
